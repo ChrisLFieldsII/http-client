@@ -1,0 +1,21 @@
+{
+  "name": "@chrisfieldsii/http-client",
+  "description": "Http client thats a wrapper around axios, so basically axios with better typings",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "private": false,
+  "author": {
+    "name": "Chris Fields II",
+    "email": "chrisjr06@gmail.com"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "yarn build --watch",
+    "publish": "yarn publish --access public"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {}
+}
