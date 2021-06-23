@@ -9,8 +9,12 @@
     "name": "Chris Fields II",
     "email": "chrisjr06@gmail.com"
   },
+  "files": [
+    "dist",
+    "dist.browser"
+  ],
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && tsc -p tsconfig.browser.json",
     "watch": "yarn build --watch"
   },
   "dependencies": {

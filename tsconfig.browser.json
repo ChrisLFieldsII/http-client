@@ -1,12 +1,12 @@
 {
   "include": ["src/**/*"],
-  "exclude": ["node_modules", "dist",  "dist.browser"],
+  "exclude": ["node_modules", "dist", "dist.browser"],
   "compilerOptions": {
     "baseUrl": "./src",
-    "outDir": "./dist",
+    "outDir": "./dist.browser",
     "declaration": true,
     "noImplicitAny": true,
-    "module": "CommonJS",
+    "module": "ES6",
     "target": "ES5",
     "jsx": "react",
     "allowJs": false,
