@@ -9,7 +9,31 @@ axios@^0.21.1:
   dependencies:
     follow-redirects "^1.10.0"
 
+debug@^4.3.1:
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.1.tgz#f0d229c505e0c6d8c49ac553d1b13dc183f6b2ee"
+  integrity sha512-doEwdvm4PCeK4K3RQN2ZC2BYUBaxwLARCqZmMjtF8a51J2Rb0xpVloFRnCODwqjpwnAoao4pelN8l3RJdv3gRQ==
+  dependencies:
+    ms "2.1.2"
+
 follow-redirects@^1.10.0:
   version "1.14.1"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.1.tgz#d9114ded0a1cfdd334e164e6662ad02bfd91ff43"
   integrity sha512-HWqDgT7ZEkqRzBvc2s64vSZ/hfOceEol3ac/7tKwzuvEyWx3/4UegXh5oBOIotkGsObyk3xznnSRVADBgWSQVg==
+
+has-flag@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/has-flag/-/has-flag-5.0.0.tgz#36e12f0b14052d6ffc8007c6f768a87623f6f692"
+  integrity sha512-dmhh9fPE7WRat4yiFvyhXh7LytudXDcE89VEdR3sxfWQKtFPr7jpXip5H402aeFfA36ucqSKecGEapc7N44k+g==
+
+ms@2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
+  integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
+
+supports-color@^9.0.1:
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-9.0.1.tgz#bcc43ff901cb8088d680144ac0b6553d242abd26"
+  integrity sha512-e8HnXOAd61fVNyYRcKoqGNpnpceN/+IbDlWCBVjeqfASq/kbH4JwNj1Y4TFrve+w838Ff4eupPKXtY03zhCBKQ==
+  dependencies:
+    has-flag "^5.0.0"
